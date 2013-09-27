@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{01CFD23E-AE6C-476D-BB9E-F86973E1C997}</ProjectGuid>
+    <ProjectGuid>{42341B8C-E4AB-47E3-AEDB-F9C5EE2F73C4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>OGRE3D</RootNamespace>
-    <ProjectName>Basic Tutorial 1</ProjectName>
+    <RootNamespace>OGRE_3D_Application1</RootNamespace>
+    <ProjectName>Basic Tutoraial 2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -94,16 +94,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseApplication.cpp" />
+    <ClCompile Include="BasicTutorial2.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="TutorialApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApplication.h" />
+    <ClInclude Include="BasicTutorial2.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="TutorialApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
