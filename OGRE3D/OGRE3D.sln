@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic Tutorial 1", "OGRE3D\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic Tutoraial 2", "OGRE 3D Application1\OGRE 3D Application1.vcxproj", "{42341B8C-E4AB-47E3-AEDB-F9C5EE2F73C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic Tutorial 3", "Basic Tutorial 3\Basic Tutorial 3.vcxproj", "{77AC2BEB-3130-4252-9E4A-49D6A751ABE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{42341B8C-E4AB-47E3-AEDB-F9C5EE2F73C4}.Debug|Win32.Build.0 = Debug|Win32
 		{42341B8C-E4AB-47E3-AEDB-F9C5EE2F73C4}.Release|Win32.ActiveCfg = Release|Win32
 		{42341B8C-E4AB-47E3-AEDB-F9C5EE2F73C4}.Release|Win32.Build.0 = Release|Win32
+		{77AC2BEB-3130-4252-9E4A-49D6A751ABE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77AC2BEB-3130-4252-9E4A-49D6A751ABE7}.Debug|Win32.Build.0 = Debug|Win32
+		{77AC2BEB-3130-4252-9E4A-49D6A751ABE7}.Release|Win32.ActiveCfg = Release|Win32
+		{77AC2BEB-3130-4252-9E4A-49D6A751ABE7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
